@@ -1,10 +1,10 @@
 /*      
-    @autor                  RAO Automation Team.
-    @Fecha de creacion      26/07/2021
-    @Descripcion            La prueba esta diseñada para validar el flujo de Empleado sector publico privado no pension en SOW.
-    @Parametros             Numero celular, INE IFE vigente, comprobante de domicilio, correo electrónico.
-        @Nombre             RAO Automation Team.
-        @Fecha              22/11/2021
+    @autor                  Unodostres
+    @Fecha de creacion      01/03/2022
+    @Descripcion            La prueba esta diseñada para validar la pantalla de Resumen de la compra
+    @Parametros             NumeroCelular
+        @Nombre             Unodostres
+        @Fecha              01/03/2022
 */
  
 var objectNavigation = require("../../resources/libraries/lib_navigation.js");
@@ -12,11 +12,11 @@ var objectNavigation = require("../../resources/libraries/lib_navigation.js");
 //Esta funcion valida pantalla Resumen de la Compra
 exports.validarResumendelacompra = function () {
 
-    objectNavigation.esperaPruebasCss(selectors.Resumencompra.textResumen.selector);
+    objectNavigation.esperaPruebasCss(selectors.Resumencompra.textResumen.selector); // Esta funcion espera segundo tras segundo y para cuando encuntra el objeto ingresado
 
     var textResumen = element(by.css(selectors.Resumencompra.textResumen.selector));
 
-    expect(textResumen.getText()).toEqual('Resumen de la compra');
+    expect(textResumen.getText()).toEqual('Resumen de la compra'); // Compara que el obejeto ingresado sea igual al resultado esperado
 
 
 }

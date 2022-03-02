@@ -16,7 +16,7 @@ var ingresoCorreo = require("../data/ingresoCorreo.json");
 
 var dataCellPhone = require("../data/cellPhoneInfo.json");
 
-
+// Esta funcion espera segundo tras segundo y para cuando encuntra el objeto ingresado
 exports.esperaPruebasCss = function (b) {
 
     browser.sleep(1500)
@@ -56,7 +56,7 @@ exports.ingreRecargaCelular = function () {
 
     var Siguiente = element(by.css(selectors.RecargaCelular.Siguiente.selector));
 
-    objectNavigation.esperaPruebasCss(selectors.RecargaCelular.operator.selector);
+    objectNavigation.esperaPruebasCss(selectors.RecargaCelular.operator.selector); // Esta funcion espera segundo tras segundo y para cuando encuntra el objeto ingresado
 
     selectOption(selectors.RecargaCelular.operator.selector,"1"); 
 
@@ -67,7 +67,7 @@ exports.ingreRecargaCelular = function () {
     Siguiente.click();
 
 }
-
+// Funcion que permite seleccionar una opcion de un combo 
 function selectOption(selector, option) {
 
     var reasonOption = element(by.css(selector));
@@ -84,7 +84,7 @@ function selectOption(selector, option) {
 }
 
 
-
+// Funcion que permite ingresar todos los datos de un targeta nueva y realiza la compra 
 exports.ingreTargetaNueva= function () {
 
     var targeta = element(by.css(selectors.Resumencompra.targeta.selector));
@@ -103,7 +103,7 @@ exports.ingreTargetaNueva= function () {
 
     var pagarTargeta = element(by.css(selectors.Resumencompra.pagarTargeta.selector));
 
-    objectNavigation.esperaPruebasCss(selectors.Resumencompra.targeta.selector);
+    objectNavigation.esperaPruebasCss(selectors.Resumencompra.targeta.selector); // Esta funcion espera segundo tras segundo y para cuando encuntra el objeto ingresado
 
     targeta.click();
 
@@ -122,7 +122,7 @@ exports.ingreTargetaNueva= function () {
     pagarTargeta.click();
 
 }
-
+// Funcion que permite ingresar a la aplicacion 
 exports.ingreCorreoPassword= function () {
 
     var usrname = element(by.css(selectors.correoPassword.usrname.selector));
@@ -133,7 +133,7 @@ exports.ingreCorreoPassword= function () {
 
     var Siguiente = element(by.css(selectors.Resumencompra.Siguiente.selector));
 
-    objectNavigation.esperaPruebasCss(selectors.Resumencompra.targeta.selector);
+    objectNavigation.esperaPruebasCss(selectors.Resumencompra.targeta.selector); // Esta funcion espera segundo tras segundo y para cuando encuntra el objeto ingresado
 
     usrname.sendKeys(ingresoCorreo.correo);
 

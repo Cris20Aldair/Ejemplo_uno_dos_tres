@@ -1,6 +1,6 @@
 /*
-    @fileoverview   enter the all mandatory fields of direction
-    @autor          RAO Automation Team
+    @fileoverview   Validar la compra de tiempo aire
+    @autor          unodostres
     @version        1.0
     History
         v1.0        script definition

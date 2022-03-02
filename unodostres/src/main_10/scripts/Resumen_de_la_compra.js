@@ -1,6 +1,6 @@
 /*
-    @fileoverview   enter the all mandatory fields of direction
-    @autor          RAO Automation Team
+    @fileoverview   Validar el resumen de la compra
+    @autor          unodostres
     @version        1.0
     History
         v1.0        script definition
