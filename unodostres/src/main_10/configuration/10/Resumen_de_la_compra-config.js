@@ -1,6 +1,6 @@
  /*
-    @fileoverview   defining capabilities for automated execution ios
-    @autor          RAO Automation Team
+    @fileoverview   definición de capacidades para ejecución automatizada
+    @autor          unodostres
     @version        1.0
     History
         v1.0        config definition
