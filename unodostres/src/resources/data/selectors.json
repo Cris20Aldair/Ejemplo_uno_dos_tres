@@ -1,0 +1,196 @@
+{
+  
+  
+  
+  
+  
+  "RecargaCelular": {
+  
+    "operator": {
+  
+      "selector": "#suggested",
+  
+      "exists": true,
+  
+      "text": null
+  
+    },
+  
+    "mobile": {
+  
+      "selector": "#mobile",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+  
+    "amount": {
+  
+      "selector": "amount",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+
+  
+  
+    "Siguiente": {
+  
+      "selector": ".button .buttonRecharge",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    }
+  
+    
+  
+  },
+
+  "Resumencompra": {
+  
+    "textResumen": {
+  
+      "selector": ".summary-message-top",
+  
+      "exists": true,
+  
+      "text": null
+  
+    },
+  
+    "targeta": {
+  
+      "selector": "#panel-title-card",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+  
+    "numerotargeta": {
+  
+      "selector": "#cardnumberunique",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+
+  
+  
+    "mes": {
+  
+      "selector": "mes-input",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+  
+    "año": {
+  
+      "selector": "expyear-input",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+
+    "cvv": {
+  
+      "selector": "cvv-input",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+    "correo": {
+  
+      "selector": ".form-group",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+
+    "pagarTargeta": {
+  
+      "selector": ".PaymentMethod",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    }
+    
+    
+  
+  },
+
+
+  "correoPassword": {
+  
+    "usrname": {
+  
+      "selector": ".usrname",
+  
+      "exists": true,
+  
+      "text": null
+  
+    },
+  
+    "psw": {
+  
+      "selector": "#psw",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+  
+    "recaptcha": {
+  
+      "selector": ".recaptcha-checkbox-borderAnimation",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    },
+
+  
+  
+    "Siguiente": {
+  
+      "selector": ".loginBtn",
+  
+      "exists": true,
+  
+      "texto": null
+  
+    }
+  
+    
+  
+
+ 
+    
+  }
+
+
+
+}
